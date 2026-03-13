@@ -14,6 +14,6 @@ public class MonsterFollow : MonoBehaviour
     void Update()
     {
         agent.SetDestination(player.position);
-        agent.updateRotation = false; // Disable automatic rotation
+        agent.updateRotation = true; // Disable automatic rotation
     }
 }
